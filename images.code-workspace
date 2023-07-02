@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "images",
+			"path": "../../../../../Desktop/images"
+		},
+		{
+			"name": "mtm6201-midterm",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mtm6201-midterm"
+	}
+}

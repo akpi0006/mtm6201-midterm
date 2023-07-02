@@ -160,3 +160,19 @@ text-align: center;
   padding: 2rem;
   color: rgb(38, 38, 38);
 }
+
+/* thank you page */
+.thanks{
+  background-image: url(../images/thanks.png);
+  /* Replace with the path to your image */
+  background-size: cover;
+  padding: 1rem;
+  background-position: center;
+  text-align: center;
+}
+
+.thanks .thanks-wrapper{
+  background-color: rgba(255, 244, 244, 0.6);
+  padding: 2rem;
+  color: rgb(38, 38, 38);
+}
