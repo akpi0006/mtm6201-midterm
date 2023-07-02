@@ -1,0 +1,30 @@
+html{
+  background-color:  rgb(247, 199, 251);
+}
+
+.content-container{
+    height: 600px;
+    overflow-x: scroll;
+  }
+  
+  .special{
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 5px;
+  }
+  
+  
+  .special-container{
+    width: 1580px;
+  }
+  .special{
+    float:left;
+    width: 300px;
+    height: 280px;
+    
+  }
+
+  .box{
+    border: 2px solid;
+  background: rgb(249, 223, 251);
+  }
