@@ -34,7 +34,6 @@ li a {
   text-decoration: none;
 }
 
-
 #bakery .text{
   float: left; 
   
@@ -78,60 +77,58 @@ li a {
 } */
     
 .content-container{
-    height: 600px;
-    overflow-x: scroll;
-  }
+  height: 600px;
+  overflow-x: scroll;
+}
   
-  .special{
-    max-width: 400px;
-    margin: 40px auto;
-    padding: 5px;
-  }
+.special{
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 5px;
+}
   
-  .special-container{
-    width: 1590px;
-  }
-  .special{
-    float:left;
-    width: 300px;
-    height: 280px;
-    
-  }
+.special-container{
+  width: 1590px;
+}
+.special{
+  float:left;
+  width: 300px;
+  height: 280px;  
+}
 
-  .box{
-    border: 2px solid;
+.box{
+  border: 2px solid;
   background: rgb(253, 235, 237, 99);
-  }
-
-  .location{
-    text-align: center;
-  }
+}
+.location{
+  text-align: center;
+}
  
-  .row {
-    display: flex;
-    padding: 1rem;
-    /* flex-flow: row wrap;       desktop
-    align-items: center; */
-    max-width: 1200px;
+.row {
+  display: flex;
+  padding: 1rem;
+  /* flex-flow: row wrap;       desktop
+  align-items: center; */
+  max-width: 1200px;
   font-size: 20px;
   display: inline; 
 }
   
-  .col {
-    padding: 20px;
-    text-align: center;
-    padding-top: 10px; 
-    color: black;
-  }
+.col {
+  padding: 20px;
+  text-align: center;
+  padding-top: 10px; 
+  color: black;
+}
 
 
 
   /* contact page*/
-  .form{
-    padding-left: 200px;
-    padding-top: 100px;
-    padding-bottom: 120px;
-  }
+.form{
+  padding-left: 200px;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
   .form ,#email ,#name ,#message,#option {
     width: 400px;
 }
