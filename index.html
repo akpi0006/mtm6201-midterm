@@ -10,12 +10,13 @@
     crossorigin="anonymous"></script>
 </head>
 <body> 
-    <div class="wrapper">
-   <header>
+
+<div class="wrapper">
+   <header role="banner">
      <a href="index.html"><img alt="logo" src="images/logo.png" 
         width="100" height="100" id="logo"></a>
-    <nav>
-        <ul>
+    <nav role="navigation">
+        <ul role="list">
             <li class="enter"><a href="sign_in.html">
                 <i class="fa-solid fa-user" style="color: #351e35;">
                 </i></a>
@@ -24,7 +25,7 @@
     </nav>
   
     <nav class="main-nav">
-      <ul>
+      <ul role="list">
         <li><a href="menu.html">Menu</a></li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
@@ -36,10 +37,10 @@
     <div class="bakery-wrapper">
 <img alt="bakery" src="images/bakery.png" width="300" height="300" id="bakery"> 
 <p class="text">
-    Welcome to Jenny's Bakery!
+   <b>Welcome to Jenny's Bakery!
      Indulge in a world of irresistible treats, 
      made with love and a sprinkle of magic.
-     Enjoy the journey!</p>   
+     Enjoy the journey!</b> </p>   
     <button class="click"><a href="learnmore.html">Learn More</a><i class="fa-solid fa-cookie-bite fa-spin"
      style="color: #000000;"></i>
     </button>
@@ -51,47 +52,38 @@
     <div class="wrapper">
          
         <div class="todayspecial">
-                                    <h1>Today's Special</h1>
+                        <h1 role="heading">Today's Special</h1>
+                        <h2>Strawerry</h2>
 
                 <div class="content-container">
                      <div class="special-container">
                 
                             <div class="special">
                                     <img alt="icecream" src="images/icecream.png" width="300" height="300" id="icecream">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga explicabo praesen
-                                    tium ipsam sed pariatur nemo molestiae numquam nostrum tempore ut eaque voluptate
-                                    m fugit quisquam, magnam quos magni. Quas, sit repellat.</p>
+                                    <p>strawberry ice-cream with fruit topping </p>
                             </div>
 
 
                             <div class="special">
                                     <img alt="bread" src="images/bread.png" width="300" height="300" id="bread"> 
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga explicabo praesen
-                                        tium ipsam sed pariatur nemo molestiae numquam nostrum tempore ut eaque voluptate
-                                        m fugit quisquam, magnam quos magni. Quas, sit repellat.</p>
+                                    <p>Vanilla swiss roll</p>
                             </div>
                             
                             
                             <div class="special">
                                     <img alt="dessert" src="images/dessert.png" width="300" height="300" id="dessert"> 
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga explicabo praesen
-                                        tium ipsam sed pariatur nemo molestiae numquam nostrum tempore ut eaque voluptate
-                                        m fugit quisquam, magnam quos magni. Quas, sit repellat.</p>
+                                    <p>Freshly made cookie with sprikles</p>
                             </div>
                             
                             
                             <div class="special">
                                 <img alt="cake" src="images/cake.png" width="300" height="300" id="cake"> 
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga explicabo praesen
-                                    tium ipsam sed pariatur nemo molestiae numquam nostrum tempore ut eaque voluptate
-                                    m fugit quisquam, magnam quos magni. Quas, sit repellat.</p>
+                                <p>Strawberry cake with vanilla icing with strawbery toppings</p>
                             </div>
 
                             <div class="special">
                                 <img alt="pudding" src="images/pudding.png" width="300" height="300" id="pudding"> 
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga explicabo praesen
-                                    tium ipsam sed pariatur nemo molestiae numquam nostrum tempore ut eaque voluptate
-                                    m fugit quisquam, magnam quos magni. Quas, sit repellat.</p>
+                                <p>Strawberry pudding with chopped stawberry and mint leaf topping</p>
                             </div>
          
                         </div>
@@ -100,7 +92,7 @@
     </div>
 </div>    
 
-    <section class="chose-location">
+    <section role="region" class="chose-location">
         <i class="fa-solid fa-location-dot" style="color: #ce3543;"></i>
             <select>
             <option selected disabled hidden>Choose a Location</option>
@@ -131,5 +123,5 @@
     </div>
 
         </div>
-        </body>
-        </html>
+</body>
+</html>
