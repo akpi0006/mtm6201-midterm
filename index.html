@@ -12,6 +12,7 @@
 <body> 
 
 <div class="wrapper">
+
    <header role="banner">
      <a href="index.html"><img alt="logo" src="images/logo.png" 
         width="100" height="100" id="logo"></a>
@@ -23,7 +24,8 @@
             </li>
         </ul>
     </nav>
-  
+
+  <!-- class for main nav because theres two navs -->
     <nav class="main-nav">
       <ul role="list">
         <li><a href="menu.html">Menu</a></li>
@@ -32,18 +34,21 @@
     </nav>
    </header>          
     
+   <!-- skip link to main topic -->
    <a href="#specials">Skip to Today's Special</a>
 
 <div class="box">
+
+    <!-- wrap the text around the image  -->
     <div class="bakery-wrapper">
-<img alt="bakery" src="images/bakery.png" width="300" height="300" id="bakery"> 
+<img alt="bakery" src="images/jennys bakery.png" width="300" height="300" id="bakery"> 
 <p class="text">
    <b>Welcome to Jenny's Bakery!
      Indulge in a world of irresistible treats, 
      made with love and a sprinkle of magic.
      Enjoy the journey!</b></p>   
    
-   
+   <!-- make a new page with content in the button  -->
      <button class="click">
     <a href="learnmore.html">Learn More</a>
     <i class="fa-solid fa-cookie-bite fa-spin"
@@ -53,38 +58,43 @@
     </div>
 </div>  
 
-<div class="background-image">
+<div class="home-img">
   <div class="wrapper">
          
+<!-- make classes to targer the special section in the css  -->
     <main id="specials">    
         <div class="todayspecial">
-                        <h1 role="heading">Today's Special</h1>
+                   <u><h1 role="heading">Today's Special</h1></u>
                         <h2>Strawerry</h2>
 
+                        <!-- make the images scroll horizontally  -->
                 <div class="content-container">
                      <div class="special-container">
                 
                             <div class="special">
-                                    <img alt="icecream" src="images/icecream.png" width="300" height="300" id="icecream">
-                                    <p>strawberry ice-cream with fruit topping </p>
+                                    <img alt="icecream" src="images/special1.png" width="300" height="300" id="icecream">
+                                    <p>Strawberry panna cotta dessert, pink Italian
+                                        panning cotta with fresh sliced strawberry and mint 
+                                        </p>
                             </div>
 
+                            <div class="special">
+                                <img alt="icecream" src="images/special2.png" width="300" height="300" id="icecream">
+                                <p>Crispy creamy strawberry trifle.
+                                    Delicious summer dessert of shortbread 
+                                    crumbs, yogurt quark cream and 
+                                    strawberries.</p>
+                        </div>
+
+                        <div class="special">
+                            <img alt="icecream" src="images/special3.png" width="300" height="300" id="icecream">
+                            <p>Cupcakes puff pastries 
+                                pastry cookies bakery sugar.</p>
+                    </div>
 
                             <div class="special">
                                     <img alt="bread" src="images/bread.png" width="300" height="300" id="bread"> 
                                     <p>Vanilla swiss roll</p>
-                            </div>
-                            
-                            
-                            <div class="special">
-                                    <img alt="dessert" src="images/dessert.png" width="300" height="300" id="dessert"> 
-                                    <p>Freshly made cookie with sprikles</p>
-                            </div>
-                            
-                            
-                            <div class="special">
-                                <img alt="cake" src="images/cake.png" width="300" height="300" id="cake"> 
-                                <p>Strawberry cake with vanilla icing with strawbery toppings</p>
                             </div>
 
                             <div class="special">
@@ -98,6 +108,7 @@
         </main>
     </div>
 </div>    
+
 
     <section role="region" class="chose-location">
         <i class="fa-solid fa-location-dot" style="color: #ce3543;"></i>
@@ -120,6 +131,7 @@
                 <div class="box">
         <footer role="contentinfo">
               <div class="row">
+            <!-- make the logo in the footer link to the home page  -->
                 <div class="col"><img alt="logo" src="images/logo.png" width="100" height="100"></div>
                 <div class="col">&copy;JA 2023</div>
                 <div class="col"><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/jennys_artt/" target="_blank">https://www.instagram.com/jennys_artt/</a></div>

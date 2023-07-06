@@ -1,12 +1,12 @@
 /* mobile version */
 
 
-
 /* general css */
 
 html{
   background-color:  rgb(253, 222, 228, 99);
 }
+
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -15,6 +15,7 @@ html{
 header{
   background-color: rgb(249, 232, 232);
 }
+ /* makes background-image */
 
 .background-image{
   background-image: url(../images/bckg.png);
@@ -24,19 +25,37 @@ header{
   background-position: center;
 }
 
-h1{
+.background-image .wrapper{
+  background-color: rgba(255, 244, 244, 0.6);
+  padding: 2rem;
+  color: rgb(38, 38, 38);
+}
+u{
+  color: rgb(134, 65, 65);
+}
+/* alters all h1 and h2  */
+h1 ,h2{
   padding: 1rem;
   text-align: center;
+  color: rgb(134, 65, 65);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+p{
+  font-size: 20px;
+}
+
+/* ceates a border around content  */
 .box{
   border: 2px solid;
   background: rgb(253, 235, 237, 99);
 }
+
 .chose-location{
   text-align: center;
 }
 
+/* puts the footer in a row for mobile version  */
 .row {
   display: flex;
   padding: 1rem;
@@ -46,7 +65,7 @@ h1{
   font-size: 20px;
   display: inline; 
 }
-  
+
 .col {
   padding: 20px;
   text-align: center;
@@ -56,16 +75,35 @@ h1{
 
 
 /* home page */
+.home-img{
+  background-image: url(../images/homeimg.png);
+  /* Replace with the path to your image */
+  background-size: cover;
+  padding: 1rem;
+  background-position: center;
+}
+.home-img .wrapper{
+  background-color: rgba(255, 244, 244, 0.6);
+  padding: 2rem;
+  color: rgb(38, 38, 38);
+}
+
 .click{
-  border: 1px solid black;
-  color: black; 
-  padding: 20px 20px; /* Set padding */
+  border: 2px solid   rgb(134, 65, 65);
+  padding: 10px 10px; /* Set padding */
   padding-left: 3%;
   text-align: center; 
   font-size: 15px;
   margin: 6%;
+  border-radius: 20px;
+  background-color: rgb(253, 235, 237, 99);
+}
+.click a{
+  text-decoration: none;
+  color: #000;
 }
 
+/* enter link for sign in page  */
 .enter{
   display: inline;/* Make it an inline element */
   display: flex;
@@ -76,6 +114,7 @@ h1{
   text-align: center; /* Center text */
 }
 
+/* design nav to display in a row for the mobile  */
 .main-nav ul li{
   display: inline;/* Make it an inline element */
   display: flex;
@@ -84,6 +123,12 @@ h1{
   margin: 5%;
   padding-left: 10px;/* Set padding */
   text-align: center; /* Center text */
+  width: 90px;
+  height: 20px;
+  border: 2px solid   rgb(134, 65, 65);
+  padding: 10px 10px; /* Set padding */
+  border-radius: 20px;
+  background-color: rgb(253, 235, 237, 99);
 }
 
 li a {
@@ -91,9 +136,14 @@ li a {
   text-decoration: none;
 }
 
+/* wrap text around image  */
 #bakery .text{
   float: left; 
 } 
+.bakery-wrapper p{
+color: rgb(134, 65, 65);
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 #bakery{
   max-width: 100%;
@@ -142,15 +192,8 @@ li a {
 
 
 /* learn more page */
-html,
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  background-color: #eaeaea;
-}
+
+/* learn more animation */
 
 .bar {
   display: flex;
@@ -177,7 +220,7 @@ body {
 .wave span {
   display: inline-block;
   animation-name: wave;
-  animation-duration: 2s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
@@ -198,50 +241,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-/* desktop version */
-
-
-@media screen and (min-width: 760px){
-  header{
-    
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /* contact page*/
 
 .form{
@@ -252,7 +251,6 @@ body {
   .form ,#email ,#name ,#message,#option {
     width: 400px;
 }
-
 
 /* sign-in page*/
 
@@ -266,12 +264,6 @@ body {
    padding-left: 200px;
     padding-top: 50px;
     padding-bottom: 120px;
-}
-
-.background-image .wrapper{
-  background-color: rgba(255, 244, 244, 0.6);
-  padding: 2rem;
-  color: rgb(38, 38, 38);
 }
 
 /* thank you page */
@@ -324,8 +316,16 @@ body {
 }
 
 
+
 /* menu page */
 
+#candy, #Tart, #rolls , 
+#doughnuts, #treat ,#yogurt,
+#cocktail, #food, #granita, 
+#Cream, #Strawberry , #sundae,
+#croissants, #cottoncandy{
+  width: 120px;
+}
 .menu {
   display: grid;
   grid-template-columns: auto auto;
@@ -343,6 +343,28 @@ body {
 
 
 
+/* desktop version */
+
+@media screen and (min-width: 760px) {
+ 
+  .main-nav ul li {
+    display: inline;
+    flex-direction: row; /* Change flex-direction to row */
+    font-size: 20px;
+    margin: 5%;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .row {
+    justify-content: space-between;
+  }
+
+  .col {
+    flex: 1;
+  }
+
+}
 
 
 
