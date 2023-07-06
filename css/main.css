@@ -244,7 +244,7 @@ color: rgb(134, 65, 65);
   /* contact page*/
 
 .form{
-  padding-left: 200px;
+  padding-left: 100px;
   padding-top: 100px;
   padding-bottom: 120px;
 }
@@ -261,7 +261,7 @@ color: rgb(134, 65, 65);
   max-width: 500px;
 }
 .signform{
-   padding-left: 200px;
+   padding-left: 100px;
     padding-top: 50px;
     padding-bottom: 120px;
 }
@@ -282,7 +282,10 @@ color: rgb(134, 65, 65);
   width: 100%;
   height: 100%;
 }
-  
+.tybox{
+  border: 4px solid palevioletred;
+}
+
 .anime {
   width: 100px;
   height: 100px;
@@ -324,7 +327,9 @@ color: rgb(134, 65, 65);
 #cocktail, #food, #granita, 
 #Cream, #Strawberry , #sundae,
 #croissants, #cottoncandy{
-  width: 120px;
+  width: 1200px;
+  max-width: 100%;
+  height: auto;
 }
 .menu {
   display: grid;
