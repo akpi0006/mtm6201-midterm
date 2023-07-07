@@ -12,27 +12,20 @@
 <body> 
 
 <div class="wrapper">
-
-   <header role="banner">
-     <a href="index.html"><img alt="logo" src="images/logo.png" 
-        width="100" height="100" id="logo"></a>
-    <nav role="navigation">
-        <ul role="list" itemscope itemtype="https://schema.org/Bakery">
-            <li class="enter"><a href="sign_in.html">
-                <i class="fa-solid fa-user" style="color: #351e35;">
-                </i></a>
-            </li>
-        </ul>
-    </nav>
-
-  <!-- class for main nav because theres two navs -->
-    <nav class="main-nav">
-      <ul role="list">
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </nav>
-   </header>          
+            <a href="index.html"><img alt="logo" src="images/logo.png" 
+                width="100" height="100" id="logo"></a>
+                
+        <!-- class for main nav because theres two navs -->
+                <nav class="main-nav" role="navigation">
+                    <ul role="list" itemscope itemtype="https://schema.org/Bakery">
+                        <li class="enter"><a href="sign_in.html">
+                                <i class="fa-solid fa-user" style="color: #351e35;">
+                                </i></a>
+                        </li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>       
     
    <!-- skip link to main topic -->
    <a href="#specials">Skip to Today's Special</a>
@@ -110,9 +103,9 @@
 </div>    
 
 
-    <section role="region" class="chose-location">
+    <section role="region">
         <i class="fa-solid fa-location-dot" style="color: #ce3543;"></i>
-            <select>
+            <select class="chose-location">
             <option selected disabled hidden>Choose a Location</option>
             <option value="Edmonton">Edmonton</option>
             <option value="Victoria">Victoria</option>
