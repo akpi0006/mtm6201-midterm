@@ -329,6 +329,9 @@ li a {
   text-align: center;
 }
 
+.todayspecial h1{
+  text-decoration: underline;
+}
 
 /* learn more page */
 
