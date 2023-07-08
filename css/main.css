@@ -155,11 +155,29 @@ p{
 }
 
 .chose-location{
-
-  text-align: center;
-  max-width: 1000px;
-  width: 100%;
+  background-color:  rgb(253, 222, 228, 99);
+  border: none;
+  text-decoration: underline;
+  max-width:100%;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-top: 1rem;
 }
+
+.location{
+  text-align: center;
+}
+
+.fa-location-dot,
+.fa-utensils {
+  font-size: 20px;
+}
+
+.fa-angles-up{
+  font-size: 40px;
+  float: right;
+}
+
 
 /* puts the footer in a row for mobile version  */
 
@@ -507,7 +525,7 @@ li a {
   }
 
   .col.logo {
-    float: left;
+    float: right;
   }
 
 
