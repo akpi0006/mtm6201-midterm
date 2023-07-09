@@ -117,6 +117,7 @@ html{
 header{
   background-color: rgb(249, 232, 232);
 }
+
  /* makes background-image */
 
 .background-image{
@@ -132,10 +133,12 @@ header{
   padding: 2rem;
   color: rgb(38, 38, 38);
 }
+
 u{
   color: rgb(134, 65, 65);
 }
 /* alters all h1 and h2  */
+
 h1 ,h2{
   padding: 1rem;
   text-align: center;
@@ -182,7 +185,6 @@ p{
 /* puts the footer in a row for mobile version  */
 
 .row {
-
   display: flex;
   padding: 1rem;
   font-size: 20px;
@@ -190,10 +192,11 @@ p{
 }
 
 .col {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   padding-top: 10px; 
   color: black;
+  font-size: 15px;
 }
 
 .logo {
@@ -386,13 +389,12 @@ li a {
   /* contact page*/
 
 .form{
-  padding-left: 100px;
   padding-top: 100px;
   padding-bottom: 120px;
 }
 
 .form {
-  width: 400px;
+  width: 230px;
   max-width: 100%;
   margin: auto;
 }
@@ -406,9 +408,7 @@ li a {
 
 /* sign-in page*/
 
-
 .signform{
-   padding-left: 100px;
     padding-top: 50px;
     padding-bottom: 120px;
     margin: auto;
