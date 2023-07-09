@@ -475,31 +475,10 @@ li a {
 #doughnuts, #treat ,#yogurt,
 #cocktail, #food, #granita, 
 #Cream, #Strawberry , #sundae,
-#croissants, #cottoncandy {
+#croissants, #cottoncandy,#shortcake {
   width: 1200px;
   max-width: 100%;
   height: auto;
-}
-
-.menu {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 10px;
-}
-
-.foodpics .menucontent {
-  width: 100px;
-  height: 100px;
-}
-
-.menucontent {
-  grid-column: 2;
-
-}
-
-.menucontent p{
-  grid-column: 2;
-  align-items: center;
 }
 
 
@@ -531,6 +510,28 @@ li a {
     float: right;
   }
 
+
+.menu {
+  display: grid;
+  grid-template-columns: auto auto; 
+  /* Set two columns for food pics and menu content */
+  gap: 20px;
+}
+
+#candy{
+  align-items: center;
+}
+
+.foodpics {
+  display: flex; 
+  /* Add flex display to align food pics and menu content horizontally */
+}
+
+.menucontent {
+  display: flex;
+   /* Add flex display to align food pics and menu content horizontally */
+  align-items: center;
+}
 
 }
 
