@@ -202,10 +202,7 @@ p{
 .logo {
   float: right;
 }
-#logo{
-  position: relative;
-  bottom: 30px;
-}
+
 
 /* home page */
 
@@ -488,7 +485,10 @@ li a {
 /* desktop version */
 
 @media screen and (min-width: 760px) {
- 
+  #logo{
+    position: relative;
+    bottom: 15px;
+  }
   .main-nav ul  {
     
     flex-direction: row; /* Change flex-direction to row */
