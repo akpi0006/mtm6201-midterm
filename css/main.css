@@ -203,7 +203,14 @@ p{
   float: right;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
 
+.fa-door-open{
+  text-decoration: none;
+}
 /* home page */
 
 .home-img{
