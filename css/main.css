@@ -167,7 +167,7 @@ p{
   padding-top: 1rem;
 }
 
-.location{
+.clocation{
   text-align: center;
 }
 
@@ -291,6 +291,11 @@ li a {
 #bakery .text{
   float: left; 
 } 
+
+.text p b{ 
+  padding: 20px;
+} 
+
 .bakery-wrapper p{
   color: rgb(134, 65, 65);
   font-family: Arial, Helvetica, sans-serif;
@@ -306,10 +311,6 @@ li a {
   max-width: 100%;
 }
 
-#bakery {
-  float:right;
-}
-
 .todayspecial{
   position: relative;
   padding: 1rem;
@@ -318,7 +319,7 @@ li a {
 }
  
 .content-container{
-  height: 600px;
+  height: 650px;
   overflow-x: scroll;
 }
   
@@ -347,28 +348,23 @@ li a {
 
 /* learn more page */
 
-hr {
-  position: relative;
-  top: 4px;
-  border: none;
-  border-bottom: 2px solid #c78c06; 
-  /* 2px is the thickness and black is the color */
-}
 table {
   border-collapse: collapse;
   width: 100%; /* Set table width to 100% */
  font-family: Arial, sans-serif; 
  font-size: 14px; 
 }
+
 th{
   padding: 20px; /* Set padding for table data */
-  background-color: rgb(255, 230, 172); /* Set header background color */
+  background-color: rgba(247, 203, 203, 0.955); /* Set header background color */
    border-left: 1px solid #222;
   border-right: 1px solid #222;
   border-bottom: 1px solid #222;
   border-top: 1px solid #222;
   border-collapse: collapse; 
 }
+
 /* creates borders */
 td {
   border-left: 1px solid #222;
@@ -378,17 +374,12 @@ td {
   text-align: left; /* Align table data to the left */
   padding: 20px; /* Set padding for table data */
 }
+
 tr {
   border-collapse: collapse;
   background-color:  white; /* Adds background color to even rows */
   border-bottom: 1px solid #222;
 }
-
-
-
-
-
-
 
 /* learn more animation */
 
@@ -441,11 +432,7 @@ tr {
   /* contact page*/
 
 .form{
-  padding-top: 100px;
-  padding-bottom: 120px;
-}
-
-.form {
+  grid-area: form;
   width: 230px;
   max-width: 100%;
   margin: auto;
@@ -458,7 +445,28 @@ tr {
   width: 230px;
 }
 
+/* make the girl be on top of the form  */
+.grid {
+  display: grid;
+  grid-template-areas:
+    "lilgirl"
+    "form";
+  align-items: center;
+}
+
+.lilgirl {
+  grid-area: lilgirl;
+  justify-self: center; /* Center the div horizontally */
+}
+
+
+
 /* sign-in page*/
+
+.sbtn{
+  appearance: none;
+}
+
 
 .signform{
     padding-top: 50px;
@@ -523,15 +531,13 @@ tr {
 
 /* menu page */
 
-/* #candy, #Tart, #rolls , 
+#candy, #Tart, #rolls , 
 #doughnuts, #treat ,#yogurt,
 #cocktail, #food, #granita, 
 #Cream, #Strawberry , #sundae,
 #croissants, #cottoncandy,#shortcake {
-  width: 1200px;
   max-width: 100%;
-  height: auto;
-} */
+} 
 
 
 /* desktop version */
@@ -596,6 +602,7 @@ tr {
   grid-column: 1/ 3;
 }
 
+
 .location {
   display: grid;
   grid-column: 2/ span 2;
@@ -603,8 +610,16 @@ tr {
   justify-content: center;
 }
 
+.grid {
+  grid-template-areas: "lilgirl form";
+  grid-template-columns: auto 1fr;
+  align-items: start;
+}
+.form{
+  margin: 6%;
 }
 
+}
 
 
 
