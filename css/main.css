@@ -347,6 +347,49 @@ li a {
 
 /* learn more page */
 
+hr {
+  position: relative;
+  top: 4px;
+  border: none;
+  border-bottom: 2px solid #c78c06; 
+  /* 2px is the thickness and black is the color */
+}
+table {
+  border-collapse: collapse;
+  width: 100%; /* Set table width to 100% */
+ font-family: Arial, sans-serif; 
+ font-size: 14px; 
+}
+th{
+  padding: 20px; /* Set padding for table data */
+  background-color: rgb(255, 230, 172); /* Set header background color */
+   border-left: 1px solid #222;
+  border-right: 1px solid #222;
+  border-bottom: 1px solid #222;
+  border-top: 1px solid #222;
+  border-collapse: collapse; 
+}
+/* creates borders */
+td {
+  border-left: 1px solid #222;
+  border-right: 1px solid #222;
+  border-bottom: 1px solid #222;
+  border-collapse: collapse;
+  text-align: left; /* Align table data to the left */
+  padding: 20px; /* Set padding for table data */
+}
+tr {
+  border-collapse: collapse;
+  background-color:  white; /* Adds background color to even rows */
+  border-bottom: 1px solid #222;
+}
+
+
+
+
+
+
+
 /* learn more animation */
 
 .bar {
@@ -543,6 +586,21 @@ li a {
   display: flex;
    /* Add flex display to align food pics and menu content horizontally */
   align-items: center;
+}
+
+/* learn more  */
+
+
+.time {
+  display: grid;
+  grid-column: 1/ 3;
+}
+
+.location {
+  display: grid;
+  grid-column: 2/ span 2;
+  grid-row: 1;
+  justify-content: center;
 }
 
 }
